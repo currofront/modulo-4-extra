@@ -1,0 +1,32 @@
+body { background-color: #dadada;}
+
+.titulo {
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.boton{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.resultado {
+    color: blue;
+    font-weight: bold;
+}
+
+.titulo__result{
+    text-align: center;
+}
+.result {
+    padding-left: 10px;
+    color: blue;
+}
+
+.valor__parcial {display: none;}

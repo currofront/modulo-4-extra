@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio extra M4 Hotel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 class="titulo">Reserva tu habitación</h1>
+
+<div class="form">
+
+    <label for="room">Tipo de habitación</label>
+    <select name="room" id="room">
+        <option value="1">Standard</option>
+        <option value="2">Junior Suite</option>
+        <option value="3">Suite</option>
+    </select>
+
+    <label for="room-size">Tamaño de la habitación</label>
+    <select name="room-size" id="room-size">
+        <option value="1">Individual</option>
+        <option value="2">Doble</option>
+        <option value="3">Triple</option>
+    </select>
+
+    <label class="spa" for="spa">Spa</label>
+    <input class="spa" type="checkbox" id="spa">
+
+    <label for="nights">Número de noches</label>
+    <input type="number" id="nights" min="0">
+
+    <label for="parking">Noches de parking</label>
+    <input type="number" id="parking" min="0">
+
+    <button id="calculate">Calcular</button>
+</div>
+    
+
+    <h2 id="total" class="total"></h2>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
